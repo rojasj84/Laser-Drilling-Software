@@ -24,7 +24,7 @@ class MainWindow(tk.Tk):
         PositionControl = PositionControlFrame(self, 900, 20)        
         InterlockFrame = InterlockSafetyFrame(self, 900, 380)
         CameraDisplayWindow = CameraFrame(self, 2, 2)
-        #CameraDisplayWindow = CameraFrame2(self, 0, 500)
+        CameraDisplayWindow = CameraFrame2(self, 0, 500)
 
 class CameraFrame(tk.Frame):
     def __init__(self, container, x_position, y_position):
